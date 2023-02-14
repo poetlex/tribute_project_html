@@ -4,6 +4,9 @@
     <meta charset="UTF-8">
     <title>tribute-page</title>
     <style>
+        @font-face {
+        font-family: Arial;
+        }
         image {
             max-width: max-content ;
             max-height: max-content;
@@ -37,17 +40,28 @@
         header {
             padding: 20px;
         }
-li {
-    text-align: left;
-    margin-left: auto;
-    margin-right: auto;
-    width: 32em
+#visual {
+    font-family: Arial;
+    font-size: 40px;
+    padding-bottom:50px;
+    padding-top:50px;
 }
 #citate {
     width: 32em;
 }
-ul,cite {
-        line-height: 35px;}
+li,cite {
+        line-height: 45px;
+        font-family: Arial;
+        font-size: 15px;
+        text-align: left;
+        margin-left: auto;
+        margin-right: auto;
+        width: 32em
+}
+h1 {
+    font-family: Arial;
+    font-size: 40px;
+}
     </style>
 </head>
 <body>
@@ -61,7 +75,7 @@ ul,cite {
 <img src="https://cdn.freecodecamp.org/testable-projects-fcc/images/tribute-page-main-image.jpg" alt="Dr. Norman Borlaug">
 <p>Dr. Norman Borlaug, third from the left, trains biologists in Mexico on how to increase wheat yields - part of his life-long war on hunger.</p>
 </div>
-    <ul><b>Here's a time line of Dr. Borlaug's life:</b>
+    <ul><b id="visual">Here's a time line of Dr. Borlaug's life:</b>
         <li><b>1914</b> - Born in Cresco, Iowa</li>
     <li><b>1933</b> - Leaves his family's farm to attend the University of Minnesota, thanks to a Depression era program known as the "National Youth Administration" </li>
     <li><b>1935</b> - Has to stop school and save up more money. Works in the Civilian Conservation Corps, helping starving Americans. "I saw how food changed them", he said. "All of this left scars on me." </li>
